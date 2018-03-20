@@ -1,0 +1,169 @@
+
+.disclaimerText {
+  position: relative;
+  margin-top: 40px;
+  left: 10%;
+}
+
+.testimonyIcon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.circleIcon {
+  border-radius: 50%;
+  max-width: 30%;
+  max-height: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -145%);
+  display: block;
+  opacity: 0.8;
+}
+
+.top-spacing {
+  margin-top: 10px;
+}
+
+.bigSlideshow {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.descText {
+  text-align: center;
+  font-family: 'Comic Sans MS';
+}
+
+.uselessBar {
+  margin-bottom: 0;
+  border: 0px;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+}
+
+.descDividerTextTop {
+  text-align: center;
+  background-color: rgb(67, 24, 96);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Comic Sans MS';
+}
+
+.descDividerTextBottom {
+  text-align: center;
+  background-color: rgb(155, 40, 12);
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-family: 'Comic Sans MS';
+}
+
+.slideImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.testimonyBox {
+  width: 100%;
+  height: 200px;
+  background: rgb(124, 29, 0);
+  position: relative;
+}
+
+.whiteBG {
+  background-color: white;
+  margin-top: 0;
+}
+
+.logoImage {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.logoBox {
+  display: flex;
+  align-items: center;
+}
+
+.msText {
+  font-family: 'Comic Sans MS';
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("/assets/mlg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
